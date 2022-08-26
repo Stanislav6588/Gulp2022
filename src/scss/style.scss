@@ -1,0 +1,27 @@
+
+body {
+	background-color: #000;
+	
+	span {
+		color: red;
+	}
+	div {
+		width: 300px;
+		height: 300px;
+		object-fit: cover;
+		overflow: hidden;
+	}
+	// background: url("@img/reactphoto.jpg") 0 0 no-repeat;
+}
+
+@media (max-width: 768px){
+	span{
+		font-size: 20px;
+	}
+} 
+
+@media (max-width: 768px){
+	body{
+		border-color: green;
+	}
+}
